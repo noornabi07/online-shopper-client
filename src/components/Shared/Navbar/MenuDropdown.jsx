@@ -3,7 +3,6 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import { useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Avatar from './Avatar'
-import store from '../../../assets/all-products/cart_icon.png'
 
 const MenuDropdown = () => {
     const user = false

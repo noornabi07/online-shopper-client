@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './menuItem.css'
-import cart from '../../../assets/all-products/cart_icon.png'
+import cart from '../../assets/all-products/cart_icon.png'
 
 const MenuItem = () => {
   return (
@@ -13,7 +13,7 @@ const MenuItem = () => {
         <li><NavLink to='/women'>Women</NavLink></li>
         <li><NavLink to='/kids'>kids</NavLink></li>
         <li><NavLink to='/carts'>
-          <p className='badge'>0</p>
+          <p className='badge text-red-600 font-bold'>0</p>
             <img src={cart} width='30' className='-mt-2' height='30' alt="" />
           </NavLink></li>
 

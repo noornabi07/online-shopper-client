@@ -1,0 +1,4 @@
+.bgcolor{
+    background: linear-gradient(to bottom, #fde1ff, #e2e8f0);
+    display: flex;
+}

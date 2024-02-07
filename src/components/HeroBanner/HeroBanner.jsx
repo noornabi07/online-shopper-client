@@ -15,11 +15,11 @@ const HeroBanner = () => {
                         <div>
                             <p className="uppercase font-bold">New Arrivals Only</p>
                             <div className='flex items-center gap-3'>
-                                <p className='lg:text-7xl text-3xl md:text-5xl font-bold'>new </p>
+                                <p className='lg:text-7xl text-3xl md:text-5xl font-semibold'>new </p>
                                 <img src={handIcon} width='80' height='80' alt="" />
                             </div>
-                            <p className='lg:text-7xl text-3xl md:text-5xl font-bold mb-3'>Collections</p>
-                            <p className='lg:text-7xl text-3xl md:text-5xl font-bold mb-3'>for everyone</p>
+                            <p className='lg:text-7xl text-3xl md:text-5xl font-semibold mb-3'>Collections</p>
+                            <p className='lg:text-7xl text-3xl md:text-5xl font-semibold mb-3'>for everyone</p>
                             <div className='flex items-center justify-center bg-red-500 w-44 rounded-2xl'>
                                 <button className='p-2 text-white'>Latest Collection</button>
                                 <FaArrowRight className='text-white'></FaArrowRight>

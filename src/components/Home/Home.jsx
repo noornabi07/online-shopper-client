@@ -2,6 +2,7 @@ import React from 'react';
 import HeroBanner from '../HeroBanner/HeroBanner';
 import Popular from '../Popular/Popular';
 import Offers from '../Offers/Offers';
+import NewCollections from '../NewCollections/NewCollections';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <HeroBanner></HeroBanner>
             <Popular></Popular>
             <Offers></Offers>
+            <NewCollections></NewCollections>
         </div>
     );
 };

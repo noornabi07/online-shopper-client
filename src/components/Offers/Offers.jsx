@@ -19,8 +19,6 @@ const Offers = () => {
                             <p className="py-6 uppercase font-bold text-sm">Only One Best Sellers Products</p>
 
                             <button className='py-1 px-6 bg-red-600 text-lg rounded-2xl  text-white'>Check Now</button>
-
-
                         </div>
                     </div>
                 </div>

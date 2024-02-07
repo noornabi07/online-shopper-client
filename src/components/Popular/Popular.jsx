@@ -1,8 +1,6 @@
 import React from 'react';
 import data_product from '../assets/all-products/data';
-import Items from '../Items/Items';
 import Container from '../Shared/Container/Container';
-// import Items from '../Items/Items';
 
 const Popular = () => {
     return (

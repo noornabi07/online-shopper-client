@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../components/MainLayout/MainLayout";
 import Home from "../components/Home/Home";
-import Men from "../components/Men/Men";
-import Women from "../components/Women/Women";
-import Kids from "../components/Kids/Kids";
-import Carts from "../components/Carts/Carts";
+import ShopCategory from "../components/Pages/ShopCategory/ShopCategory";
+import menBanner from '../components/assets/all-products/banner_mens.png'
+import womenBanner from '../components/assets/all-products/banner_women.png'
+import kidBanner from '../components/assets/all-products/banner_kids.png'
+
 
 const router = createBrowserRouter([
     {
@@ -21,19 +22,19 @@ const router = createBrowserRouter([
             },
             {
                 path:'/men',
-                element: <Men></Men>
+                element:  <ShopCategory banner={menBanner} category='men'></ShopCategory> 
             },
             {
                 path: '/women',
-                element: <Women></Women>
+                element: <ShopCategory banner={womenBanner} category='women'></ShopCategory> 
             },
             {
                 path: '/kids',
-                element: <Kids></Kids>
+                element: <ShopCategory banner={kidBanner} category='kid'></ShopCategory> 
             },
             {
                 path: '/carts',
-                element: <Carts></Carts>
+                element: <ShopCategory></ShopCategory> 
             }
         ]
     }

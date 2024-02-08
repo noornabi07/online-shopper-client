@@ -5,6 +5,9 @@ import ShopCategory from "../components/Pages/ShopCategory/ShopCategory";
 import menBanner from '../components/assets/all-products/banner_mens.png'
 import womenBanner from '../components/assets/all-products/banner_women.png'
 import kidBanner from '../components/assets/all-products/banner_kids.png'
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
+import Carts from "../components/Carts/Carts";
 
 
 const router = createBrowserRouter([
@@ -34,7 +37,15 @@ const router = createBrowserRouter([
             },
             {
                 path: '/carts',
-                element: <ShopCategory></ShopCategory> 
+                element: <Carts></Carts>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             }
         ]
     }
